@@ -23,21 +23,21 @@ namespace aulaOO
         private float _volumecombustivel;
         private int _marchaAtual;
 
-        public string modelo { get; set; }
-        public string cor { get; set; }
-        public int ano { get; set; }
-        public string marca { get; set; }
-        public string chassi { get; set; }
-        public string proprietario { get; set; }
-        public int velocidademax { get; set; }
-        public int velociadadeatual { get; set; }
-        public int nrportas { get; set; }
-        public bool temtetosolar { get; set; }
-        public int nrmarchas { get; set; }
-        public bool temcambioautomatico { get; set; }
-        public float volumecombustivel { get; set; }
+        public string modelo { get => _modelo; set => _modelo = value; }
+        public string cor { get => _cor; set => _cor = value; }
+        public int ano { get => _ano; set => _ano = value; }
+        public string marca { get => _marca; set => _marca = value; }
+        public string chassi { get => _chassi; set => _chassi = value; }
+        public string proprietario { get => _proprietario; set => _proprietario = value; }
+        public int velocidademax { get => _velocidademax; set => _velocidademax = value; }
+        public int velociadadeatual { get => _velociadadeatual; set => _velociadadeatual = value; }
+        public int nrportas { get => _nrportas; set => _nrportas = value; }
+        public bool temtetosolar { get => _temtetosolar; set => _temtetosolar = value; }
+        public int nrmarchas { get => _nrmarchas; set => _nrmarchas = value; }
+        public bool temcambioautomatico { get => _temcambioautomatico; set => _temcambioautomatico = value; }
+        public float volumecombustivel { get => _volumecombustivel; set=> _volumecombustivel = value; }
 
-        public int marchaAtual { get; set; }
+        public int marchaAtual { get => _marchaAtual; set => _marchaAtual = value; }
 
 
         public void acelera()
